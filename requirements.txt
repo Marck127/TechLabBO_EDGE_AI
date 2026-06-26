@@ -1,0 +1,16 @@
+numpy==1.26.4
+matplotlib==3.10.0
+opencv-python==4.10.0.84
+scikit-learn==1.6.1
+scikit-image==0.25.0
+pyserial==3.5
+requests==2.32.3
+websockets==15.0.1
+paho-mqtt==2.1.0
+flask==3.1.0
+mediapipe==0.10.21
+tensorflow==2.19.0
+ultralytics==8.3.170
+onnx==1.18.0
+onnxruntime==1.22.0
+tensorflow-model-optimization==0.8.0
