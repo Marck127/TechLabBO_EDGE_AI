@@ -5,6 +5,7 @@
 
 from clase1 import *
 from clase2 import *
+from clase3 import *
 
 
 # ==========================================================
@@ -67,6 +68,37 @@ def main():
 
     reflexion(ruta)
 
+    # ======================================================
+    # CLASE 3 - PRE-PROCESAMIENTO DE IMÁGENES
+    # ======================================================
+
+    print("\n=== CLASE 3: PRE-PROCESAMIENTO DE IMÁGENES ===")
+
+    espacios_color(ruta)
+
+    deteccion_color(ruta)
+
+    histograma(ruta)
+
+    ecualizacion(ruta)
+
+    clahe(ruta)
+
+    contrast_stretching(ruta)
+
+    filtros(ruta)
+
+    realce(ruta)
+
+    sobel(ruta)
+
+    laplaciano(ruta)
+
+    canny(ruta)
+
+    hough_lineas(ruta)
+
+    hough_circulos(ruta)
 
 # ==========================================================
 # PUNTO DE ENTRADA DEL PROGRAMA
