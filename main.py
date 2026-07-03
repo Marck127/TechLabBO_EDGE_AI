@@ -6,7 +6,8 @@
 from clase1 import *
 from clase2 import *
 from clase3 import *
-
+from clase4 import *
+from clase5 import *
 
 # ==========================================================
 # FUNCIÓN PRINCIPAL
@@ -42,7 +43,7 @@ def main():
     # ======================================================
     # CLASE 2 - OPERACIONES BÁSICAS
     # ======================================================
-
+    """
     print("\n=== CLASE 2: OPERACIONES BÁSICAS ===")
 
     suma(ruta)
@@ -99,6 +100,48 @@ def main():
     hough_lineas(ruta)
 
     hough_circulos(ruta)
+"""
+    # ======================================================
+    # CLASE 4 - PROCESAMIENTO MORFOLÓGICO
+    # ======================================================
+
+    print("\n=== CLASE 4 ===")
+
+    elementos_estructurantes()
+
+    erosion_dilatacion(ruta)
+
+    apertura_cierre(ruta)
+
+    operaciones_avanzadas(ruta)
+
+    componentes_conectados(ruta)
+
+    contornos_descriptores(ruta)
+
+    # ======================================================
+    # CLASE 5 - SEGMENTACIÓN DE IMÁGENES
+    # ======================================================
+
+    print("\n=== CLASE 5 ===")
+
+    threshold_global(ruta)
+
+    threshold_adaptativo(ruta)
+
+    otsu(ruta)
+
+    segmentacion_hsv(ruta)
+
+    componentes_conectados(ruta)
+
+    segmentacion_bordes(ruta)
+
+    distance_transform(ruta)
+
+    watershed(ruta)
+
+    kmeans_segmentacion(ruta)
 
 # ==========================================================
 # PUNTO DE ENTRADA DEL PROGRAMA
